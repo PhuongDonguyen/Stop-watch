@@ -1,0 +1,62 @@
+* {box-sizing: border-box;}
+html {font-size: 62.5%;}
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, #abbaab, #ffffff)
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-size: 7.7rem;
+    color: lightgreen;
+    width: 420px;
+    background-color:darkslategray;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.display span:not(.collins) {
+    display: block;
+    width: 100px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    font-size: 1.9em;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 3px solid #fff;
+    transition: all .1s;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #333;
+    padding: 20px 35px;
+    border-radius: 50px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+}
+
